@@ -1,0 +1,201 @@
+Date,Meal,Time of Day,"Carbs (grams, est.)",Bolus (units),Food
+2/5/24,Breakfast,8:30:00 AM,35,2,2 hardboiled eggs and overnight oats with blueberries
+2/5/24,Lunch,12:40:00 PM,22,3,"Chili with cheddar cheese, sour cream, and an avocado"
+2/5/24,Dinner,7:30:00 PM,66,3,cocunut chicken soup (hello fresh)
+2/6/24,Breakfast,10:00:00 AM,35,2,2 hardboiled eggs and overnight oats with blueberries
+2/6/24,Lunch,2:00:00 PM,95,3,(95g of carbs) grain bowl salad
+2/6/24,Dinner,6:40:00 PM,22,2,Chili
+2/7/24,Breakfast,9:40:00 AM,35,2,"Overnight oats with apples, deviled eggs "
+2/7/24,Lunch,1:00:00 PM,69,2,"smoothie (35g carbs), toast (34g carbs), 2 hardboiled eggs, bacon"
+2/7/24,Dinner,6:40:00 PM,22,2,Chili
+2/8/24,Breakfast,9:30:00 AM,28,1,"Two hardboiled eggs, granola bar (23g carbs, 9g sugar), yogurt (5g carbs)"
+2/8/24,Lunch,1:10:00 PM,44,1,"couscous (37g carbs), sausage (7g carbs), onions"
+2/8/24,Dinner,7:30:00 PM,40,1,"salmon, quinoa with corn, asparagus"
+2/9/24,Breakfast,9:00:00 AM,30,1,"3 hardboiled eggs, couscous + sausage leftovers (~30g carbs)"
+2/9/24,Lunch,12:15:00 PM,60,2,"Pasturma, eggs, fried home fries, 1 toast, 3 tbsp ketchup"
+2/9/24,Dinner,6:15:00 PM,60,2,"Chicken slouvaki, salad, fruit salad, half a gluten free bagel "
+2/10/24,Breakfast,11:40:00 AM,80,3,"Eggs Benedict, home fries grilled, 1 piece of toast"
+2/10/24,Dinner,9:45:00 PM,80,3,Regular poutine (80g
+2/11/24,Breakfast,10:45:00 AM,95,3,"2 eggs, sausage, home fries (50g), 1/2 white toast (15g), some poutine (20g), some fruit (10g)"
+2/11/24,Dinner,6:45:00 PM,90,3,"4 pieces of baguette (60g), potato's (30g)"
+2/12/24,Breakfast,10:00:00 AM,70,2,"2 eggs, sausage, ham, bacon, hash brown (20g), lil smoothie (4g and sugar??), half a croissant (25g), half a piece of toast (20g), salad (sugar on dressing?)"
+2/12/24,Dinner,8:15:00 PM,70,2,Lamb burger (5g carbs) on ciabatta (35g carbs) with some poutine (30g carbs)
+2/13/24,Breakfast,8:00:00 AM,65,2,"Eggs, sausage, fried home fries (30g carbs), small croissant (25g), multigrain toast (10g)"
+2/13/24,Dinner,6:25:00 PM,62,2,"Burger on sesame with fried onions (45g carbs), 2 Stella's (17g carbs per)"
+2/14/24,Breakfast,10:00:00 AM,60,2,"Chicken noodle soup cup (15g carbs), turkey sandwich (45g carbs)"
+2/14/24,Lunch,1:45:00 PM,69,2,"Hot dog thing (39g carbs), some poutine (30g carbs)"
+2/14/24,Dinner,9:30:00 PM,60,2,"Beef tartar, salmon gravlax, beef fillet (60g carbs … I hope)"
+2/15/24,Breakfast,9:35:00 AM,20,1,Breakfast sandwich on English muffin (20g)
+2/15/24,Lunch,1:20:00 PM,40,1,Salad and burger (40g carbs) [needed to take another unit at 3:20]
+2/15/24,Dinner,8:50:00 PM,30,1,Lamb kebab with yogurt sauce and bulgar wheat (30g of carbs)
+2/16/24,Breakfast,10:00:00 AM,5,0,2 hardboiled eggs and yogurt (5g carbs)
+2/16/24,Lunch,3:30:00 PM,30,1,Lamb kebab with yogurt sauce and bulgar wheat (30g of carbs)
+2/16/24,Dinner,8:15:00 PM,31,1,"Chili (22g carbs), Fruit (6g carbs), Almonds and walnuts (3g carbs)"
+2/17/24,Breakfast,11:00:00 AM,54,2,"2 sausage egg cheese sandwiches (38g carbs), Smoothie (36g carbs)"
+2/17/24,Lunch,3:50:00 PM,19,0,Italian wrap (19g carbs)
+2/17/24,Dinner,9:00:00 PM,65,2,"Barramundi, couscous, asparagus, carrots (55g carbs). Sugar free Reese's (2, 10g carbs)"
+2/18/24,Breakfast,8:30:00 AM,35,1,"2 hard boiled eggs, oats (35g carbs)"
+2/18/24,Lunch,2:00:00 PM,20,0,Low carb wrap 
+2/18/24,Dinner,8:20:00 PM,65,2,Couscous texmex chicken bowl (65g carbs)
+2/19/24,Breakfast,9:45:00 AM,30,1,"1 hardboiled egg, overnight oats with fruit (30g carbs)"
+2/19/24,Lunch,12:40:00 PM,22,0,Chili (22g carbs)
+2/19/24,Dinner,5:45:00 PM,27,0,"Chili (22g carbs), Fruit (5g carbs)"
+2/20/24,Breakfast,11:30:00 AM,34,0,"2 hardboiled eggs, overnight oats with fruit (34g carbs)"
+2/20/24,Lunch,3:40:00 PM,25,0,Chicken sausage and ricotta ravioli (25g carbs)
+2/20/24,Dinner,8:50:00 PM,27,0,"Chili (22g carbs), almond butter, reeses (5g carbs)"
+2/21/24,Breakfast,9:50:00 AM,17,0,1 Hardboiled egg and overnight oats (17g carbs)
+2/21/24,Lunch,12:30:00 PM,20,0,Chili (20g carbs)
+2/21/24,Dinner,6:40:00 PM,20,0,Low carb turkey wrap
+2/22/24,Breakfast,10:50:00 AM,10,0,"2 hard boiled eggs, yogurt and fruit (10g carbs)"
+2/22/24,Lunch,2:45:00 PM,30,0,"Chicken, kale, white bean soup (30g carbs)"
+2/22/24,Dinner,8:00:00 PM,35,0,Salmon and grits (35g carbs)
+2/23/24,Breakfast,10:00:00 AM,15,0,Hard boiled egg and yogurt with fruit (15g carbs)
+2/23/24,Lunch,1:10:00 PM,17,0,"Salmon, avocado, sausage, mayo on whole grain toast (17g carbs)"
+2/23/24,Dinner,6:10:00 PM,30,0,"Turkey, and chicken/kale/white bean soup (30g carbs)"
+2/24/24,Breakfast,10:15:00 AM,10,0,"2 hard boiled eggs, yogurt and fruit (10g carbs)"
+2/24/24,Lunch,1:15:00 PM,18,0,Chicken sausage and yogurt sauce wrap (18g carbs)
+2/24/24,Dinner,6:20:00 PM,5,0,Beanless chili (5g carbs)
+2/25/24,Breakfast,10:10:00 AM,6,0,"2 hard boiled eggs, turkey, and almonds (6g carbs)"
+2/25/24,Lunch,2:45:00 PM,6,0,"Turkey, dried mangos"
+2/25/24,Dinner,5:45:00 PM,30,0,"Chicken, kale, white bean soup (30g carbs)"
+2/26/24,Breakfast,7:00:00 AM,10,0,"2 hard boiled eggs, yogurt and fruit (10g carbs)"
+2/26/24,Lunch,12:00:00 PM,35,1,"Swedish meatballs, gravy, mashed potato's and carrots (35g carbs)"
+2/26/24,Dinner,7:50:00 PM,5,0,Beanless chili (5g carbs)
+2/27/24,Breakfast,8:45:00 AM,15,0,Hard boiled egg and yogurt with fruit (15g carbs)
+2/27/24,Lunch,1:10:00 PM,34,0,"Curried squash soup, wassa light rye crisp bread, pepperoni rolls (34g carbs)"
+2/27/24,Dinner,7:00:00 PM,22,0,turkey meatballs with palenta and carrots (22g carbs)
+2/28/24,Breakfast,10:30:00 AM,33,0,Hard boiled egg and fruit smoothie (33g carbs)
+2/28/24,Lunch,3:30:00 PM,26,0,Spinach ricotta ravioli (26h carbs)
+2/28/24,Dinner,7:30:00 PM,36,0,2 slices of pizza and 4 wings (30g carbs)
+2/29/24,Breakfast,1:00:00 AM,33,0,Hard boiled egg and fruit smoothie (33g carbs)
+2/29/24,Lunch,4:00:00 PM,20,0,Pizza slice and almonds
+2/29/24,Snack,6:10:00 PM,19,0,Pizza slice
+2/29/24,Dinner,8:00:00 PM,5,0,Beanless chili (5g carbs)
+3/1/24,Breakfast,11:40:00 AM,33,0,2 hard-boiled eggs and fruit smoothie (33g carbs)
+3/1/24,Lunch,4:20:00 PM,27,0,"Protein stick (1g carbs), protein carb (26g carbs)"
+3/1/24,Dinner,11:00:00 PM,10,0,Fried chicken and ranch (10g carbs)
+3/2/24,Breakfast,11:20:00 AM,33,0,2 hard-boiled eggs and fruit smoothie (33g carbs)
+3/2/24,Lunch,3:40:00 PM,10,0,Fried chicken and ranch (10g carbs)
+3/2/24,Dinner,7:25:00 PM,65,1,2 slices of detroit style pizza and fried chicken (65g carbs)
+3/3/24,Breakfast,10:30:00 AM,19,0,Protein bar (19g carbs)
+3/3/24,Snack,2:20:00 PM,33,0,Turkey and cheddar and fruit smoothie (33g carbs)
+3/3/24,Lunch,6:40:00 PM,20,0,Moroccan grilled chicken (say 2g … prolly like 20g)
+3/3/24,Dinner,9:20:00 PM,5,0,Heart vegetable poloze
+3/3/24,Snack,11:59:00 PM,17,0,A piece of toast!! (17g carbs)
+3/4/24,Breakfast,9:45:00 AM,20,0,2 eggs and avo on toast (17g carbs)
+3/4/24,Lunch,1:38:00 PM,20,0,"Lavash wrap with turkey, avocado, onions, tzatziki and Parmesan crisps"
+3/4/24,Dinner,6:20:00 PM,33,0,"Roast beef, potato's and Brussels sprouts with gravy "
+3/5/24,Breakfast,10:45:00 AM,20,0,"Egg, steak, avo toast "
+3/5/24,Lunch,2:15:00 PM,15,0,"Steak, bacon, onion, harissa salad"
+3/5/24,Dinner,8:15:00 PM,37,0,Steak rice and veggies
+3/6/24,Breakfast,11:15:00 AM,35,0,2 hard boiled eggs and fruit smoothie
+3/6/24,Lunch,3:00:00 PM,27,0,Roast beef with potatoes 
+3/6/24,Dinner,6:20:00 PM,20,0,"Chicken sausage, avo yogurt sauce, onions, feta, parm crisps on lavash wrap"
+3/7/24,Breakfast,11:05:00 AM,35,0,hard boiled egg and fruit smoothie
+3/7/24,Lunch,2:20:00 PM,36,0,"Roast beef, gravy, pasta with chicken sausage, onions with Parmesan "
+3/7/24,Dinner,7:45:00 PM,32,0,"Italian wedding soup, roast beef, yogurt with fruit"
+3/8/24,Breakfast,10:30:00 AM,35,0,hard boiled egg and fruit smoothie
+3/8/24,Lunch,2:20:00 PM,30,0,"harissa yogurt chicken, ww couscous, veggies "
+3/8/24,Snack,6:00:00 PM,19,0,Protein bar (19g carbs)
+3/8/24,Dinner,10:50:00 PM,32,0,"steak tips, yukon mash potatoes, carrots"
+3/9/24,Breakfast,10:10:00 AM,25,0,"Hardoiled egg on toast, yogurt w/ fruit"
+3/9/24,Lunch,1:20:00 PM,30,0,"snacked on almonds and cheese (for fat) + 2 hardboiled eggs, toast, canned chicken noodle soup"
+3/9/24,Dinner,7:00:00 PM,10,0,Fattoush salad with grilled chicken
+3/10/24,Breakfast,10:50:00 AM,35,0,2 hard boiled eggs and fruit smoothie
+3/10/24,Lunch,4:50:00 PM,25,0,Lavash wraps with turkey and hummus. Carrots and hummus 
+3/10/24,Dinner,9:15:00 PM,25,0,"Breaded fish, brocili and potatoes"
+3/11/24,Breakfast,9:45:00 AM,12,0,2 hard boiled eggs and toast
+3/11/24,Lunch,1:40:00 PM,60,1,Chicken sausage rigatoni
+3/11/24,Dinner,7:50:00 PM,36,0,"rice and meatball, carrots with hummus"
+3/12/24,Breakfast,1:30:00 PM,19,0,"2 hardboiled eggs, yogurt w/ fruit, almond butter"
+3/12/24,Lunch,5:10:00 PM,12,0,1/2 serving of chili
+3/12/24,Dinner,8:05:00 PM,24,0,Chili and almonds
+3/12/24,Snack,10:50:00 PM,26,0,orange ricotta pound cake
+3/13/24,Snack,7:45:00 AM,15,0,Protein bar (no sugar)
+3/13/24,Breakfast,10:30:00 AM,14,0,Egg with cheese on toast
+3/13/24,Snack,12:05:00 PM,16,0,Protein bar 
+3/13/24,Lunch,1:30:00 PM,22,0,Chili
+3/13/24,Dinner,5:55:00 PM,26,0,Chili w/ protein chips
+3/13/24,Snack,11:15:00 PM,5,0,Brown butter cookie and chips
+3/14/24,Breakfast,10:45:00 AM,22,0,Chili w/ eggs
+3/14/24,Lunch,1:50:00 PM,15,0,"Chicken, rice and broccoli "
+3/14/24,Dinner,7:10:00 PM,30,0,Chicken shawarma and falafel 
+3/14/24,Snack,10:30:00 PM,14,0,Corona extra
+3/14/24,Snack,10:30:00 PM,10,0,Falafel
+3/14/24,Snack,11:30:00 PM,15,0,Falafel
+3/15/24,Breakfast,11:30:00 AM,30,0,"Avocado toast with pesto, tomato and salmon"
+3/15/24,Lunch,3:30:00 PM,24,0,"1.5 Falafel with hummus and greek salad, sourcream and onion protein chips"
+3/15/24,Dinner,7:05:00 PM,40,1,"Wagyu steak, rice"
+3/15/24,Dessert,7:45:00 PM,20,0,Butterscotch custard
+3/16/24,Breakfast,11:15:00 AM,16,0,Protein bar
+3/16/24,Lunch,1:10:00 PM,8,0,House salad with caesar salad and grilled chicken 
+3/16/24,Snack,2:30:00 PM,5,0,Sweet and sour shrimp (1)
+3/16/24,Snack,4:48:00 PM,19,0,Protein bar and chips
+3/16/24,Dinner,8:40:00 PM,55,1,"Bass, risotto, carrots and Brussels sprouts. Bread"
+3/16/24,Dessert,10:05:00 PM,17,0,Cannoli
+3/16/24,Snack,11:59:00 PM,16,0,Protein bar
+3/17/24,Breakfast,10:40:00 AM,20,0,"Sausage, onion omelet. Bacon and sausage. Half of a Croissant "
+3/17/24,Lunch,2:15:00 PM,20,0,Greek salad with chicken. Slice of pita
+3/17/24,Dinner,8:00:00 PM,32,0,"Outback Steakhouse ribeye, mashed potatoes, house salad with ranch. Bread"
+3/18/24,Breakfast,7:45:00 AM,13,0,Egg on toast 
+3/18/24,Lunch,1:50:00 PM,26,0,Greek bulgar bowl with salmon
+3/18/24,Dinner,7:15:00 PM,26,0,Greek bulgar bowl with salmon
+3/19/24,Breakfast,10:45:00 AM,6,0,2 hardboiled eggs
+3/19/24,Lunch,1:25:00 PM,37,0,Spicy beef Ramon noodle
+3/19/24,Dinner,5:28:00 PM,26,0,Greek bulgar bowl
+3/19/24,Snack,10:07:00 PM,16,0,Sugarfree protein bar
+3/20/24,Breakfast,9:45:00 AM,6,0,2 hardboiled eggs
+3/20/24,Lunch,12:12:00 PM,35,0,Fruit smoothie
+3/20/24,Dinner,5:45:00 PM,24,0,Chili
+3/20/24,Snack,7:52:00 PM,12,0,Miller high life
+3/20/24,Snack,11:05:00 PM,24,0,pasta
+3/21/24,Breakfast,12:12:00 PM,22,0,Avocado egg salad on toast
+3/21/24,Lunch,2:52:00 PM,37,0,Spicy beef Ramon noodle
+3/21/24,Dinner,7:55:00 PM,32,0,Spicy beef Ramon noodle
+3/22/24,Snack,1:02:00 AM,16,0,Protein bar
+3/22/24,Snack,2:15:00 AM,20,0,Toast
+3/22/24,Breakfast,12:00:00 PM,22,0,2 hard boiled eggs and piece of toast
+3/22/24,Lunch,2:15:00 PM,15,0,Chili with avocado and sour cream 
+3/22/24,Dinner,6:03:00 PM,24,0,Chili with avocado
+3/23/24,Snack,12:57:00 AM,22,0,Toast
+3/23/24,Breakfast,11:32:00 AM,30,0,"Bacon, egg and cheese on croissant "
+3/23/24,Lunch,5:33:00 PM,12,0,Chicken soup
+3/23/24,Dinner,8:18:00 PM,22,0,Steak and potatoes 
+3/23/24,Snack,8:32:00 PM,5,0,Dark chocolate
+3/24/24,Snack,12:50:00 AM,16,0,Protein bar
+3/24/24,Breakfast,10:40:00 AM,22,0,2 hard boiled eggs and toast
+3/24/24,Snack,2:00:00 PM,16,0,Sausage eggs and cheese on croissant (half)
+3/24/24,Lunch,4:36:00 PM,24,0,Chili
+3/24/24,Dinner,8:30:00 PM,18,0,Chicken soup
+3/25/24,Breakfast,11:02:00 AM,20,0,"Scrambled eggs, sausage, tomato and onion. With toast"
+3/25/24,Lunch,2:05:00 PM,34,0,Fruit smoothie
+3/25/24,Dinner,5:38:00 PM,16,0,"Lavash rolls with turkey, salami and cheese. Avo, tomato, onion and cucumber salad"
+3/25/24,Snack,10:20:00 PM,18,0,Chicken soup
+3/26/24,Breakfast,11:27:00 AM,35,0,Hard boiled egg and fruit smoothie 
+3/26/24,Lunch,1:27:00 PM,26,0,"Salad with chickpeas, radishes, onions and feta. Half a turkey, salami, lettuce, and onion sandwich on brioche"
+3/26/24,Snack,5:07:00 PM,4,0,Protein chips
+3/26/24,Dinner,7:20:00 PM,25,0,"Small plates: tuna tartar, cheese board, fried cauliflower, braised short rib pie, Spanish chopped salad, fries"
+3/27/24,Breakfast,11:18:00 AM,30,0,Sausage egg and cheese on biscuit 
+3/27/24,Lunch,4:05:00 PM,12,0,Lavash wraps 
+3/27/24,Dinner,7:43:00 PM,34,0,Three tacos
+3/28/24,Breakfast,11:55:00 AM,10,0,"2 hard boiled eggs, yogurt and fruit (10g carbs)"
+3/28/24,Lunch,2:58:00 PM,14,0,Ravioli bake
+3/28/24,Dinner,7:49:00 PM,20,0,Ravioli bake
+3/29/24,Breakfast,12:25:00 PM,34,0,Hard boiled egg and smoothie
+3/29/24,Lunch,4:15:00 PM,16,0,Lavash wraps and almonds
+3/29/24,Dinner,9:15:00 PM,24,0,"Ravioli bake and salad with chickpeas, feta, and radishes"
+3/29/24,Snack,11:38:00 PM,20,0,Protein bar and dark chocolate
+3/30/24,Breakfast,12:05:00 AM,30,0,Hard boiled egg and smoothie
+3/30/24,Lunch,5:25:00 PM,20,0,Ravioli bake and almonds 
+3/30/24,Dinner,9:20:00 PM,20,0,Ravioli bake
+3/30/24,Snack,11:08:00 PM,18,0,Protein bar and dark chocolate
+3/31/24,Breakfast,11:45:00 AM,30,0,Hard boiled egg and smoothie
+3/31/24,Lunch,3:08:00 PM,30,0,"Quinoa, cucumber, onion, tomato, chicken, hummus, and tzatziki"
+3/31/24,Dinner,8:20:00 PM,34,0,Italian sausage soup with zucchini fries
+4/1/24,Snack,2:20:00 AM,22,0,Protein bar and chips
+4/1/24,Breakfast,1:38:00 PM,34,0,"Egg, chorizo and cheese on toast"
+4/1/24,Lunch,5:24:00 PM,28,0,"Quinoa, cucumber, onion, tomato, chicken, hummus, and tzatziki"
+4/1/24,Snack,9:00:00 PM,16,0,Protein bar
+4/1/24,Dinner,10:24:00 PM,14,0,Italian sausage soup
+4/1/24,Snack,11:58:00 PM,20,0,Italian sausage soup and protein chips
+4/2/24,Breakfast,8:05:00 AM,5,0,Hard boiled egg and yogurt 
