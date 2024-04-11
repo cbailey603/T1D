@@ -1,0 +1,209 @@
+---
+title: "Type-1 Diabetes Modeling"
+author: "Connor Bailey"
+date: "4/2/24"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+projPath <- dirname(rstudioapi::documentPath())
+setwd(projPath)
+options(scipen = 999) 
+```
+```{r libraries, include=FALSE}
+
+library(chron)
+library(fpp3)
+library(plotly)
+library(car)
+library(forecast)
+library(ggthemes)
+library(tibbletime)
+library(distributional)
+theme_set(theme_solarized())
+```
+
+# Data Importation
+```{block data, type = 'written_answer'}
+
+I was diagnosed with type-1 diabetes in January of 2024, changing my life forever....
+
+```
+```{r}
+
+# Importing data 
+df.model <- read.csv("Data/df_model.csv")
+
+```
+##### Generating: Final Time-Series
+```{r}
+
+ts <- df.model |>
+  mutate(Time = as_datetime(Time)) |>
+  select(Time, BG, EffectiveCarbs, EffectiveInsulin, Exercise) |>
+  as_tsibble(index = Time) |>
+  arrange(Time)
+
+```
+
+# Model Preperation
+### Box-Cox Transformation 
+```{block box-cox, type = 'written_answer'}
+Before we can build our models, we need to ensure the time-series is ready. After testing multiple transformations, I found the Box-Cox to be optimal. 
+```
+```{r}
+
+lambda <- BoxCox.lambda(ts$BG, method = c("guerrero"))
+ts$BG <- ts$BG^lambda
+transformed.ts <- as_tsibble(ts, index = Time)
+
+# Unit root test
+transformed.ts |> features(BG, unitroot_kpss)
+
+```
+```{block box-cox2, type = 'written_answer'}
+does not pass kpss. is not stationary. 
+```
+
+
+### Train & Test Sets
+```{block train_test, type = 'written_answer'}
+In order to assess the accuracy of our  models, we will need to split our data in to 'train' and 'test' data sets. The first four years of the data (80%), 2017-2020, will be put in the train set, and the final year (20%), 2021, will be put in the test data set. 
+```
+```{r}
+
+# Train
+train <- transformed.ts |>
+  filter(Time >= "2024-03-11 00:00:00",
+         Time < "2024-03-15 00:00:00") |>
+  fill_gaps() |> 
+  arrange(Time)
+
+# Test
+test <- transformed.ts |>
+  filter(Time >= "2024-03-15 00:00:00",
+         Time < "2024-03-16 00:00:00") |>
+  fill_gaps() |>
+  arrange(Time)
+
+```
+
+
+
+
+
+# Model Generation
+```{block models1, type = 'written_answer'}
+Now we will create our forecasting models using the training data set. The first model will be a linear regression model, using the predictor variables previously discussed, and trend and seasonal components. The second model will be an optimized ETS. The third model will be an optimized ARIMA. The final model will be an aggregation of all three previous models. 
+```
+```{r}
+
+fit <- train |> model(
+  ARIMA = ARIMA(BG),  
+  Regression = ARIMA(BG ~ EffectiveCarbs + EffectiveInsulin + as.factor(Exercise)),
+  NNETAR = NNETAR(BG)) |>
+  mutate(ENSEMBLE = (Regression + ARIMA + NNETAR)/3)
+fit
+
+```
+```{block models2, type = 'written_answer'}
+The ETS and ARIMA models were automatically optimized. The ETS model has multiplicative error and season components, and an additive trend component. The ARIMA is seasonally and non-seasonally differenced, and has a first order moving average component [MA(q=1)]. 
+```
+
+# Residual Analysis
+```{block resid1, type = 'written_answer'}
+Before we can forecast with these models, we need to analyze their residuals. 
+```
+```{r}
+
+# Residuals Plot
+augment(fit) |>
+  autoplot(.resid) +
+  labs(title = "Residuals for All Models",
+       y = "Residuals")
+
+# ACF Plots
+augment(fit) |>
+  ACF(.resid) |>
+  autoplot() +
+  labs(title = "ACF for All Models",
+       y = "ACF")
+
+
+# Portmanteau Test (Ljung-Box Test)
+augment(fit) |>
+  features(.resid, ljung_box, lag = 24) |>
+  arrange(lb_pvalue)
+
+```
+```{block resid2, type = 'written_answer'}
+As we can see, the residuals are relatively normally distributed around the mean of zero, meaning they are homoscedastic. The ACF plots for the ETS and ARIMA models look good, as does the ENSEMBLE model. The ACF plot for the regression model is slightly concerning. Furthermore, while the ETS and ARIMA models pass the Ljung-Box test, the regression model does not. While normally, these two facts would disqualify this model, we will proceed with this model for the sake of this exercise. As we will see when we forecast with these models, it performs well despite these concerns. 
+```
+
+
+# Forecast
+
+## Back Transformation
+```{r}
+
+# Train
+train.predict <- train |>
+  mutate(BG = (BG^(1/lambda))) |>
+  fill_gaps() |>
+  arrange(Time)
+
+# Test
+test.predict <- test |>
+  mutate(BG = (BG^(1/lambda))) |>
+  fill_gaps() |>
+  arrange(Time)
+
+```
+
+## Neural Network Forecast
+```{r}
+
+# Generating forecast plot
+fit |> select(c(NNETAR)) |> forecast(new_data = test.predict) |> autoplot(train.predict) +
+  ylim(c(20, 260)) +
+  autolayer(test.predict) +
+  labs(title = "Neural Network Model Forecast",
+       x = "Time",
+       y = "BG") 
+
+```
+# Accuracy
+```{block accuracy1, type = 'written_answer'}
+To assess the accuracy of our forecast models more specifically, we need to compare the generated forecasts against the test data with the following metrics:
+```
+### Point Forecast Accuracy
+``` {r}
+
+# Generating the forecast table (fable)
+myf <- fit |> select(c(NNETAR)) |> forecast(new_data = test.predict)
+
+# Generating a point forecast accuracy table
+accuracy(myf, test.predict) |>
+  mutate(Model = .model) |>
+  select(c(Model, MAE, RMSE, MAPE)) |>
+  arrange(MAPE)
+
+
+```
+```{block accuracy2, type = 'written_answer'}
+All of our models perform well, with the regression model performing slightly worse. The ENSEMBLE model is slightly better than the ETS and ARIMA models. 
+```
+### Prediction Interval Accuracy
+``` {r}
+
+myf |> accuracy(test.predict, list(crps =CRPS)) |>
+  mutate(Model = .model,
+         CRPS = crps) |>
+  select(c(Model, CRPS)) |>
+  arrange(CRPS)
+
+```
+```{block accuracy4, type = 'written_answer'}
+Again ENSEMBLE model outperforms the others, but all models perform relatively well. 
+```
