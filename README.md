@@ -611,6 +611,10 @@ This plot shows the blood glucose values in black and the predicted values in bl
 
 
 Model | MAE | RMSE | MAPE 
+--- | --- | --- | --- 
+NNETAR | 16.84926 | 22.63226 | 14.75651 
+
+Model | MAE | RMSE | MAPE 
 --- | --- | --- | --- |--- 
 NNETAR | 16.84926 | 22.63226 | 14.75651
 
