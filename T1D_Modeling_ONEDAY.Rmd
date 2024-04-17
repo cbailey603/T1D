@@ -54,6 +54,7 @@ Before we can build our models, we need to ensure the time-series is ready. Afte
 ```
 ```{r}
 
+# Box-Cox transformation, via Guerrero optimization
 lambda <- BoxCox.lambda(ts$BG, method = c("guerrero"))
 ts$BG <- ts$BG^lambda
 transformed.ts <- as_tsibble(ts, index = Time)
@@ -100,10 +101,7 @@ Now we will create our forecasting models using the training data set. The first
 ```{r}
 
 fit <- train |> model(
-  ARIMA = ARIMA(BG),  
-  Regression = ARIMA(BG ~ EffectiveCarbs + EffectiveInsulin + as.factor(Exercise)),
-  NNETAR = NNETAR(BG)) |>
-  mutate(ENSEMBLE = (Regression + ARIMA + NNETAR)/3)
+  NNETAR = NNETAR(BG)) 
 fit
 
 ```
