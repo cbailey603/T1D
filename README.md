@@ -614,10 +614,6 @@ Model | MAE | RMSE | MAPE
 --- | --- | --- | --- 
 NNETAR | 16.84926 | 22.63226 | 14.75651 
 
-Model | MAE | RMSE | MAPE 
---- | --- | --- | --- |--- 
-NNETAR | 16.84926 | 22.63226 | 14.75651
-
 
 <p>
 The mean absolute error (MAE) measures the average error of the predicted values compared to the actual values from the test subset. The root mean squared error (RMSE) is a similar measurement, but instead of taking the absolute value, it takes the square root of the squared error. Both of these metrics are in the scale of the dependent variable, blood glucose, in this case. Therefore, we can summarize these metrics by saying the average error of the predicted blood glucose values is about 17 or 23 mg/dL, respectively. The mean absolute percentage error (MAPE) is not on the same scale as the dependent variable, as they are a percentage. A MAPE below 10% is considered excellent, and from 10%-20% is considered good. Therefore, a MAPE value of 15% for our model is respectable. 
