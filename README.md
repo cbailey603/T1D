@@ -1,16 +1,8 @@
----
-title: Type-1 Diabetes Analysis and Forecasting 
-layout: post
-post-image: "/assets/images/T1D_files/honeymoon_phase.png"
-description: This is a personal, ongoing analysis of my recently diagnosed type-1 diabetes. Data is integral to type-1 diabetes management, as carbohydrate estimations and insulin dosage calculations regularly occur throughout the day. Through this project, I aim to understand my body better and improve my type-1 diabetes management. Additionally, personal insights could translate into helping the greater diabetes community. This is the very beginning of a lifelong project.
-tags:
-- R
-- Machine-Learning
-- Forecasting
-- Visualization
----
-
 # Introduction 
+
+<p>
+This is a personal, ongoing analysis of my recently diagnosed type-1 diabetes. Data is integral to type-1 diabetes management, as carbohydrate estimations and insulin dosage calculations regularly occur throughout the day. Through this project, I aim to understand my body better and improve my type-1 diabetes management. Additionally, personal insights could translate into helping the greater diabetes community. This is the very beginning of a lifelong project.
+</p>
 
 <p>
 In January of 2024, I was diagnosed with type-1 diabetes. As I learned about my condition and what it would demand of me, I realized that my education in data analysis has given me the tools to tackle this lifelong challenge. With this realization, I decided to make the best of a bad situation and use my data analysis knowledge to track and analyze my diabetes. 
@@ -148,7 +140,7 @@ In my research for this project, I came across an excellent paper in the Diagnos
 
 <p>
 </p>
-<img src="/assets/images/T1D_files/effective_carbs.png">
+<img src="/Graphics/effective_carbs.png">
 <p>
 </p>
 
@@ -225,7 +217,7 @@ Similarly to carbohydrates, bolus injections need to transformed. Fast-acting bo
 
 <p>
 </p>
-<img src="/assets/images/T1D_files/effective_bolus.png">
+<img src="/Graphics/effective_bolus.png">
 <p>
 </p>
 
@@ -321,7 +313,7 @@ ggplot(df, aes(x = BG)) +
 <p>
 </p>
 
-<img style="float: left;margin:0 10px 10px 0" src="/assets/images/T1D_files/BGdist.png">
+<img style="float: left;margin:0 10px 10px 0" src="/Graphics/BGdist.png">
 
 <p>
 Firstly, the shape of the distribution indicates that it is not normally distributed; it is slightly skewed to the right. This makes sense, considering the differences in physical symptoms between a low BG (<70mg/dL) and a high BG (>180mg/dL). Low blood glucose is uncomfortable and dangerous. Symptoms include feeling lightheaded, dizzy, sweaty, and hungry; worse symptoms can arise if the low becomes drastic. Conversely, high blood glucose does not manifest physical symptoms unless levels are considerably high and/or long-term. Therefore, diabetics experiencing low blood sugar can and will react promptly to increased BG levels, usually by consuming glucose. Returning to the BG distribution, high blood glucose is more common than low blood glucose and persists for longer, resulting in a right-skewed distribution. Lastly, we can see that I spend most of my time in the normal blood glucose range, which is great! This can be quantified as time-in-range and is represented as a percentage, which is calculated below:
@@ -424,7 +416,7 @@ This “honeymoon phase” can be seen in my data by comparing my long-acting ba
 </p>
 
 
-<img style="float: left;margin:0 10px 10px 0" src="/assets/images/T1D_files/honeymoon_phase.png">
+<img style="float: left;margin:0 10px 10px 0" src="/Graphics/honeymoon_phase.png">
 
 <p>
 </p>
@@ -480,7 +472,7 @@ Since tracking this data, I have cataloged roughly 200 meals (snacks included) a
 
 <p>
 </p>
-<img src="/assets/images/T1D_files/dailycarbs.png">
+<img src="/Graphics/dailycarbs.png">
 <p>
 </p>
 
@@ -531,7 +523,7 @@ The last factor to analyze is exercise. The data I captured for exercise is admi
 
 <p>
 </p>
-<img src="/assets/images/T1D_files/BG_during_exercise.png">
+<img src="/Graphics/BG_during_exercise.png">
 <p>
 </p>
 
@@ -606,7 +598,7 @@ The neural network optimized with the 26 lagged input values and 14 nodes in the
 
 <p>
 </p>
-<img src="/assets/images/T1D_files/ONE_DAY/NNETAR_forecast.png">
+<img src="/Graphics/ONE_DAY/NNETAR_forecast.png">
 <p>
 </p>
 
